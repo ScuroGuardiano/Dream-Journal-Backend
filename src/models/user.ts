@@ -11,7 +11,7 @@ export type IUserInstance = Sequelize.Instance<IUserAttributes> & IUserAttribute
 
 export default function defineUser(db: Sequelize.Sequelize) {
     return db.define<IUserInstance, IUserAttributes>('User', {
-        id: { type: Sequelize.UUID, defaultValue: Sequelize.UUIDV4, unique: true },
+        id: { type: Sequelize.UUID, defaultValue: Sequelize.UUIDV4, unique: true, primaryKey: true },
         email: { type: Sequelize.STRING, unique: true, allowNull: false },
         password: { type: Sequelize.STRING, allowNull: false }
     });
