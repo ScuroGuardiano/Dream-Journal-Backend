@@ -6,7 +6,9 @@ export interface IDreamAttributes {
     title: string;
     content: string;
     date?: number;
-    UserId?: string
+    UserId?: string;
+    createdAt?: string;
+    updatedAt?: string;
 }
 export type IDreamInstance = Sequelize.Instance<IDreamAttributes> & IDreamAttributes;
 
