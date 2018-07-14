@@ -4,7 +4,8 @@ import defineDream from './dream';
 
 let db = new Sequelize('mainDB', null, null, {
     dialect: "sqlite",
-    storage: "./db.sqlite"
+    storage: "./db.sqlite",
+    logging: false
 });
 
 

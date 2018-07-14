@@ -8,6 +8,9 @@ To run use:
     npm run start
 ```
 
+To use it, you need client side too, it's here: https://github.com/ScuroGuardiano/Dream-Journal-Front  
+Sorry for messy code there :3
+
 ## License
 
 Copyright (c) 2018 ScuroGuardiano

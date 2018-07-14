@@ -1,5 +1,5 @@
 import IDreamData from "./idream-data";
-import { Dream } from './../models';
+import { Dream } from '../models';
 import { IDreamInstance } from "../models/dream";
 
 export default class DreamService {

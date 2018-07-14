@@ -1,4 +1,4 @@
-import { User } from './../models';
+import { User } from '../models';
 import * as bcrypt from 'bcrypt';
 import { IUserInstance } from '../models/user';
 import RegisterError, { RegisterErrorCodes } from '../errors/register-error';
